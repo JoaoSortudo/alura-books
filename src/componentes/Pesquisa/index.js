@@ -60,7 +60,7 @@ function Pesquisa() {
                 { livrosPesquisados.map( livro => (
                     <Resultado>
                         <p>{livro.nome}</p>
-                        <img src = { livro.src }/>
+                        <img src = { livro.src } alt =''/>
                     </Resultado>
                 )) }
             </Resultados>
